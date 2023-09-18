@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: left;
+}
+
+.column-gap-10 {
+  column-gap: 10px;
+}
